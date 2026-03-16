@@ -66,10 +66,8 @@ python gui_app.py
 
 ```python
 # 检测图片
-detect_image('path/to/image.jpg')
+detect_image('D:\Program Files\code\python\torch_code\facial detection\Snipaste_2026-03-16_16-30-09.png')
 
-# 检测视频
-detect_video('path/to/video.mp4')
 ```
 
 ## 项目结构
