@@ -27,7 +27,7 @@ A real-time face mesh detection system using MediaPipe and OpenCV, with a PyQt5-
 ### 1. 克隆仓库
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/huangfabu/Face-Detection-GUI.git
 cd facial detection
 ```
 
@@ -66,8 +66,10 @@ python gui_app.py
 
 ```python
 # 检测图片
-detect_image('D:\Program Files\code\python\torch_code\facial detection\Snipaste_2026-03-16_16-30-09.png')
+detect_image('path/to/image.jpg')
 
+# 检测视频
+detect_video('path/to/video.mp4')
 ```
 
 ## 项目结构
@@ -100,7 +102,7 @@ facial detection/
 
 ### 图片检测
 
-![Image Detection Example](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=face%20mesh%20detection%20result%20showing%20facial%20landmarks%20and%20contours%20on%20a%20person's%20face&image_size=landscape_16_9)
+![Image Detection Example](图片检测GUI界面展示.png)
 
 ### 视频检测
 
