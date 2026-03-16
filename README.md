@@ -79,8 +79,8 @@ facial detection/
 ├── main.py             # 核心检测逻辑
 ├── gui_app.py          # GUI界面
 ├── face_landmarker.task # MediaPipe模型文件
-├── README.md           # 项目说明文档
-└── test files/         # 测试图片和视频
+├── requirements.txt     # 项目依赖文件
+└── README.md           # 项目说明文档
 ```
 
 ## 核心功能
@@ -103,10 +103,6 @@ facial detection/
 ### 图片检测
 
 ![Image Detection Example](图片检测GUI界面展示.png)
-
-### 视频检测
-
-![Video Detection Example](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=real-time%20face%20mesh%20detection%20in%20video%20with%20FPS%20display&image_size=landscape_16_9)
 
 ## 注意事项
 
